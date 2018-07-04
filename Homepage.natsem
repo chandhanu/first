@@ -1,0 +1,83 @@
+<HTML>
+<HEAD>
+<TITLE> DEMO WEBSITE </TITLE>
+<BODY>
+ <br>
+ <div id="header">
+ 
+ <h1> PSG INSTITUTE OF TECHNOLOGY AND APPLIED RESEARCH </h1>
+ </div>
+ <br><br>
+ <div id="wrapper">     
+ <a href="#" class="button">Home</a>
+ <a href="#" class="button">Workshops</a>
+ <a href="#" class="button">Registration</a>
+ <a href="#" class="button">Contact us</a></div>
+ <br><br><br><br><br>
+ <div id="design">
+ <div class="name"> National Seminar 2016</div>
+ </div></BODY>
+ <STYLE>
+
+ BODY {
+    background-image: url("blak1.jpg");
+    background-repeat: no-repeat;
+    background-position:  bottom;
+    margin-right: 200px;}
+                                      /*HEADER*/
+ #header {background-color:black;
+ color:white;
+ text-align:center;
+ width:120%;
+ padding:10px;
+ border-radius: 0px;
+ font-family:Tw Cen MT;
+ font-size:15px;
+ box-shadow:         0px 3px 5px rgba(0, 0, 0, 50);
+ opacity:1;
+ }                
+              
+#wrapper {padding-left:260px;}
+
+
+
+			  /*BUTTON*/
+
+
+.button{
+  position:relative;
+  display:inline-block;
+  background: #2887c7;
+  padding: 15px 50px;
+ float: left;
+   background-image: linear-gradient(to bottom, #000000, #0040FF);
+  border-radius: 0px;
+  box-shadow: 0px 1px 4px -2px #333;
+  font-family: Courier New;
+  color: #ffffff;
+  text-align:center;
+  text-shadow: 0px -1px #333;
+  text-decoration: none;
+}
+
+.button:after{
+content: '';
+position: absolute;
+top: 0px;
+border-radius:0px;
+left: 2px;
+height: 25%;
+width: calc(100% - 4px);
+
+background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+
+.button:hover{
+  background: #009dff;
+  background-image: linear-gradient(to bottom, #2887c7, #5bb4eb);
+
+  text-decoration: none;
+}
+ #design{padding-left:250px;padding-top:100px;}
+ .name{padding:65px;position:absolute;float:right;border:solid; border:50% white;color:white;font-size:400%;text-align:center;font-family:Teen Light;}
+  </style>

@@ -1,0 +1,148 @@
+ @import url(https://fonts.googleapis.com/css?family=Black+Ops+One);
+ @import url(https://fonts.googleapis.com/css?family=Righteous);
+ @import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+ @import url(https://fonts.googleapis.com/css?family=Candal);
+ 
+ BODY {
+    background-image: url("blak1.jpg");
+    background-repeat: repeat-y;
+    background-position: inherit;
+    margin-right: 160px;
+  
+}
+                                      /*HEADER*/
+ #header {
+    background-color:black;
+    color:white;
+    /*text-align: center;*/
+    width:100%;
+    padding:17px;
+    padding-left: 100px;
+    border-radius: 0px;
+    font-family: 'Righteous', cursive;
+    /*font-family:Tw Cen MT;*/
+    font-size:18px;
+    box-shadow:         0px 3px 5px rgba(0, 0, 0, 50);
+    opacity:1;
+ }                
+              
+#wrapper {
+    padding-left:40px;
+    
+ }
+
+
+
+			  /*BUTTON*/
+
+
+.button{
+    position:relative;
+    display:inline-block;
+    background: #2887c7;
+     padding: 15px 45px;
+    float: left;
+    background-image: linear-gradient(to bottom, #000000, #002288);
+    border-radius: 0px;
+    box-shadow: 0px 1px 4px -20px #333;
+    font-family: Century Gothic;
+    color: #ffffff;
+    text-align:center;
+    text-shadow: 0px -1px #333;
+    text-decoration: none;
+    
+}
+
+.button:after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    border-radius:0px;
+    left: 2px;
+    height: 25%;
+   /* width: calc(100% - 4px);
+    */background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+.button:hover{
+   background: #009dff;
+   background-image: linear-gradient(to bottom, #2887c7, #5bb4eb);
+}
+  
+ #design{
+   padding-left:40px;
+   padding-top:100px;
+   padding-right: 100px;
+   text-align:justify;
+
+}
+
+.button:active{
+   background: #009dff;
+   background-image: linear-gradient(to bottom, #2887c7, #5bb4eb);
+}
+ 
+ 
+.name{
+   padding:65px;
+   position:relative;
+   background-color:black;
+   float:left;
+   font-family: 'Droid Sans', sans-serif;
+   color:white;
+   text-align: center;}
+.name1{
+   padding:65px;
+   position:relative;
+   float:right;
+   border:solid;
+   border:50% white;
+   color:white;
+   font-size:400%;
+   text-align:justify;
+   font-family: 'Droid Sans', sans-serif;}
+
+.name2{
+   padding:40px;
+   position:relative;
+   background-color:black;
+   float:right;
+   font-family: 'Droid Sans', sans-serif;
+   color:white;}
+ 
+.name3{
+   padding:65px;
+   position:relative;
+   background-color:black;
+   float:right;
+   font-family: 'Droid Sans', sans-serif;
+   color:white;}
+ 
+ .name4{
+   padding:65px;
+   position: relative;
+   background-color:black;
+   float: none;
+   font-family:Century Gothic;
+   color:white;}
+ 
+ .img_pose{
+   width: auto;
+   height: auto;
+   padding: 25px 30px;
+   text-align: left;
+ }
+ .q{
+   color:#0b4886;
+   text-align: justify;
+   font-family: 'Candal', sans-serif;
+   }
+ 
+ 
+ 
+ div .map{
+   width: 550px;
+   height:380px;
+   padding-left: 0px;
+   z-index: 2;
+   position: absolute;
+ }
